@@ -28,8 +28,8 @@ class JugadorController extends Controller
 
 
 
-        $equipos = Equipo::all(); // trae todos los equipos de la base de datos
-        return view('jugadores.create', compact('equipos')); // PASA $equipos a la vista
+        $equipos = Equipo::all();
+        return view('jugadores.create', compact('equipos'));
     }
 
 

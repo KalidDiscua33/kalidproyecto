@@ -31,7 +31,7 @@
                 <input type="number" class="form-control" id="cantidadjugadores" name="cantidadjugadores" required>
             </div>
 
-            <!-- Botones para enviar o cancelar -->
+
             <button type="submit" class="btn btn-primary">Guardar</button>
             <a href="{{ route('equipos.index') }}" class="btn btn-secondary">Cancelar</a>
         </form>

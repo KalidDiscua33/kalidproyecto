@@ -14,10 +14,10 @@ class EquipoSeeder extends Seeder
      */
     public function run(): void
     {
-        // Crear 10 equipos aleatorios
+
         Equipo::factory(10)->create();
 
-        // Crear 1 equipo manual
+
         Equipo::factory()->create([
             'nombre' => 'Kalid',
             'user_id' => User::inRandomOrder()->first()->id,
