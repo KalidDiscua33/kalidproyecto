@@ -28,6 +28,7 @@ cp .env.example .env
 4.Genera la key de la aplicación:
 
 php artisan key:generate
+<<<<<<< HEAD
 
 5.Configura tu base de datos en el archivo .env.
 
@@ -45,3 +46,13 @@ php artisan migrate
 
 
 
+=======
+
+5.Configura tu base de datos en el archivo .env.
+
+6.Corre las migraciones para crear las tablas:
+
+php artisan migrate
+ 
+7. php artisan serve
+>>>>>>> b2b09e067d2b67227a66eba0a8a76927f690ccb9
